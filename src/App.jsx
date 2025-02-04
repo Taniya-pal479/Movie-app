@@ -8,7 +8,7 @@ import { MovieProvider } from './contexts/MovieContext';
  
 
 function App() {
-  const url="http://www.omdbapi.com/?apikey=da33d8b6&"
+  const url="https://www.omdbapi.com/?apikey=da33d8b6&"
 
   return (
    <MovieProvider>
