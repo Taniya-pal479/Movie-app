@@ -37,8 +37,8 @@ function Home() {
 
     try {
       const response = await axios.get(
-        `http://www.omdbapi.com/?apikey=da33d8b6&s=${searchKeyword}`
-      );
+        `https://www.omdbapi.com/?apikey=da33d8b6&s=${searchKeyword}`
+      ) ;
       setMovieAllDate(response?.data?.Search || []);
     } catch (error) {
       setError("Error fetching movie data:" );
